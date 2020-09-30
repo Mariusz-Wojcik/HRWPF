@@ -19,5 +19,13 @@
             <ComboBox Height="26" Width="150" Margin="5" />
             <Button Content="Odśwież" Height="25" Width="100" Margin="5" />
         </StackPanel>
+        <DataGrid 
+            Grid.Row="1" 
+            Margin="15" 
+            CanUserAddRows="False"
+            IsReadOnly="True"
+            SelectionMode="Single">
+            
+        </DataGrid>
     </Grid>
 </Window>
