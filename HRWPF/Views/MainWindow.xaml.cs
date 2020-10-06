@@ -11,16 +11,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HRWPF
+namespace HRWPF.Views
 {
     /// <summary>
-    /// Interaction logic for AddEditEmployeeView.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class AddEditEmployeeView : MetroWindow
+    public partial class MainWindow : MetroWindow
     {
-        public AddEditEmployeeView()
+        public MainWindow()
         {
             InitializeComponent();
         }
